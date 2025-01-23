@@ -1,7 +1,7 @@
-import stockTest as yf
+import yfinance as yf
 
 # Define the ticker symbol
-ticker_symbol = "AAPL"
+ticker_symbol = "MSFT"
 
 # Create a Ticker object
 ticker = yf.Ticker(ticker_symbol)
